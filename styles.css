@@ -1,0 +1,124 @@
+/* General styles */
+
+html {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #111;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #082A96;
+}
+
+
+/* login form styles */
+
+.form_element {
+    margin: 0 0 2em 0;
+}
+
+.form_element-inner {
+    position: relative;
+}
+.form_input {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.4em;
+    border: 2px solid ##eee;
+}
+
+.form_label {
+    font-size: 1.4em;
+    display: block;
+    margin: 0 0 0.5em 0;
+}
+
+
+.form_required {
+    float: right;
+    font-size: 0.8em;
+    background: #ddd;
+    padding: 0.3em;
+}
+
+.form_hint:before {
+    content: "\1F6C8";
+    font-size: 1.3em;
+    margin: 0 0.2em 0 0;
+}
+
+.form_submit {
+    background: #006000;
+    color: #fff;
+    border: none;
+    padding: 0.6em;
+    font-size: 1.4em;
+    float: right;
+}
+
+.form_error {
+    margin: 0;
+    padding: 0.4em;
+    color: #961219;
+    background-color: #fbd8d8;
+}
+
+.form_hint {
+    margin: 0;
+    font-size: 1.2em;
+}
+.has-error input {
+    border: 5px solid #b0141d;
+}
+
+.form_toggle-password {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    padding: 1.2em;
+    background: #eee;
+    border: none;
+}
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #D0392E; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
